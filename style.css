@@ -803,11 +803,11 @@ footer {
 	display: none;
 }
 .header__slider__rigthtSide____man {
-	align-self: center;
 	position: initial;
+		align-self: center;
 }
 
-.header__slider__rigthtSide____man >img {
+.header__slider__rigthtSide____man > img {
 	max-width: 300px;
 }
 
