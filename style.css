@@ -765,7 +765,6 @@ footer {
 
 .header__slider_wrapper {
 	min-height: 0;
-
 	padding: 20px;
 }
 
@@ -794,7 +793,17 @@ footer {
 }
 
 .header__slider__rigthtSide {
-  display: none;
+  flex-direction: column;
+}
+
+.header__slider__rigthtSide__plita {
+	display: none;
+}
+.header__slider__rigthtSide__microwave {
+	display: none;
+}
+.header__slider__rigthtSide____man {
+	max-width: 200px;
 }
 
 .upperSide__zakaz__top {
