@@ -547,8 +547,8 @@ input[type="checkbox"] {
 
 #back-top {
   position: fixed;
-  bottom: 100px;
-  right: 10%;
+  bottom: 5%;
+  right: 50px;
 }
 
 #back-top a {
@@ -589,13 +589,13 @@ input[type="checkbox"] {
   border-right: 1px solid lightgray;
 }
 
-.accordion>.accordion-toggle {
+.accordion > .accordion-toggle {
   display: none;
   position: absolute;
   opacity: 0;
 }
 
-.accordion>label {
+.accordion > label {
   display: block;
   position: relative;
   height: 50px;
@@ -610,7 +610,7 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-.accordion>label:after {
+.accordion > label:after {
   content: '';
   position: absolute;
   top: 12px;
@@ -623,13 +623,13 @@ input[type="checkbox"] {
   transition: 0.4s transform;
 }
 
-.accordion>section {
+.accordion > section {
   overflow: hidden;
   height: 0;
   transition: all .4s;
 }
 
-.accordion>.accordion-toggle:checked~label:after {
+.accordion > .accordion-toggle:checked~label:after {
   transform: rotate(45deg);
   top: 16px;
 }
@@ -638,7 +638,7 @@ input[type="checkbox"] {
   height: 50px;
 }
 
-.accordion>section p {
+.accordion > section p {
   margin: 15px 0;
   padding: 0 20px;
 }
@@ -861,6 +861,10 @@ footer {
 
 .footer__right {
 	margin-top: 30px;
+}
+
+#back-top {
+   right: 5%;
 }
 }
 
