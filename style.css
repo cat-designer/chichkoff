@@ -807,10 +807,6 @@ footer {
 	max-width: 200px;
 }
 
-.upperSide__zakaz__top {
-	display: none;
-}
-
 .upperSide__zakaz {
 	display: flex;
 	justify-content: center;
