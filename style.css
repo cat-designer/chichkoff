@@ -777,9 +777,8 @@ footer {
 	max-width: 300px;
 }
 
-	.upperSide__logo {
+.upperSide__logo {
 	padding-left: 0px;
-
 }
 
 	.header__upperSide_wrapper {
@@ -857,7 +856,6 @@ footer {
 .footer__left > div {
 	text-align: center;
 }
-
 
 .footer__right {
 	margin-top: 30px;
