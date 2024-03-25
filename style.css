@@ -291,6 +291,13 @@ main > section > h3 {
   cursor: pointer;
 }
 
+.content_wrapper__card__single_card___img {
+	padding-top: 5px;
+	width: 30px;
+	height: 35px;
+	filter: brightness(100);
+}
+
 .varranty_wrapper {
   margin-top: 20px;
   padding: 20px;
